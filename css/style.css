@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,500i,600,600i,700,700i,900|Ubuntu:300,300i,400,500,500i,700&display=swap');
+/* font-family: 'Ubuntu', sans-serif;
+font-family: 'Playfair Display', serif; */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Header  part start */
+
+	.navbar {
+		padding: 1.5rem 0rem;
+	}
+
+	.navbar-expand-lg .navbar-nav {
+		color: #626262;
+		text-transform: uppercase;
+		font-family: 'Playfair Display', serif;
+		font-size: 17px;
+		font-weight: 500;
+	}
+
+	.navbar-expand-lg .navbar-nav .nav-link {
+		padding-right: 0px;
+		padding-left: 45px;
+	} 
+
+/* Header part end */
+
+/* Banner part start */
+	.banner img{
+		padding: 35px 0px;
+	}
+
+/* Banner part end */
+
+/* Photodiary  part start */
+
+	.photodiary{
+		width: 90%;
+		margin:auto;
+	}
+	span {
+		display: block;
+		/* padding: 20px 0px; */
+		text-transform: uppercase;
+		font-family: 'Ubuntu', sans-serif;
+		font-size: 15px;
+		font-weight: 500;
+		color: #b4ad9e;
+		/* padding: 30px 0px; */
+		padding-top: 45px;
+		padding-bottom: 17px;
+	}  
+	h1 {
+		color: #626262;
+		font-family: 'Playfair Display', serif;
+		/* padding: 10px 0px; */
+		margin-bottom: 25px;
+		font-size: 30px;
+		font-weight: 500;
+	}
+	p {
+		font-family: 'Playfair Display', serif;
+		color: #626262;
+		font-size: 15px;
+		line-height: 1.6;
+		font-weight: 500;
+	}
+
+/* Photodiary  part end */
+
+
+/* Lifestyle part start */
+
+	.lifestyle {
+		width: 90%;
+		margin: auto;
+		padding-top: 75px;
+	}
+
+/* Lifestyle part end */
+
+/* Photodiary_second  part start */
+
+	.photodiary_second {
+		width: 90%;
+		margin: auto;
+		padding-top: 75px;
+		padding-bottom: 60px;
+	}
+
+/* Photodiary_second  part end */
+
+/* Newslatter part start */
+
+	.newslatter {
+		background: #f0f0f0;
+		padding-bottom: 40px;
+	}
+
+	.news{
+		width: 34%;
+		margin: auto;
+		position: relative;
+	}
+	.news h1 {
+		/* padding: 15px 0px; */
+		font-family: 'Playfair Display', serif;
+		font-size: 29px;
+		padding-top: 20px;
+		padding-bottom: 10px;
+		font-weight: 500;
+	}
+	.news input{
+		border: none;
+		background: transparent;
+		border-bottom: 1px solid;
+		width: 100%;
+		padding-bottom: 10px;
+		font-size: 14px;
+		font-family: 'Playfair Display', serif;
+		color:#626262;
+		
+	}
+	.send img{
+		position: absolute;
+		right: 15px;
+		/* padding-top: 5px; */
+		bottom: 10px;
+	}
+/* Newslatter part end */
+
+/* Lifestyle_second part start */
+
+	.lifestyle_second {
+		width: 90%;
+		margin: auto;
+		padding-top: 75px;
+	}
+
+/* Load_more part start */
+
+	.load_more {
+		text-align: center;
+		/* margin: 90px 0px;  */ 
+		margin: auto;
+	}
+	.load_more button{
+		border: none;
+		border: 1px solid;
+		background: transparent;
+		margin: 90px 0px;
+		padding: 25px;
+		color: #626262;
+		background: #f0f0f0;
+		font-size: 20px;
+		font-family: 'Playfair Display', serif;
+
+	}
+/* Load_more part end */
+
+/* Footer part end */
+
+	.footer {
+
+		background: #f0f0f0;
+		/* margin: 10px 0px; */
+		padding: 35px 0px;
+
+	}
+
+	.footer_content {
+		width: 80%;
+		margin: auto;
+
+	}
+	.terms ul {
+		list-style: none;
+		display: flex;
+		justify-content: flex-start;
+		margin-bottom: 0px;
+	}
+
+	.terms ul a {
+		text-decoration: none;
+		font-family: 'Playfair Display', serif;
+		color: #000;
+		padding-right: 25px;
+
+	}
+
+	.social_icon ul {
+
+		list-style: none;
+		display: flex;
+		justify-content: end;
+		margin-bottom: 0px;
+
+	}
+	.social_icon ul a {
+
+		text-decoration: none;
+		font-family: 'Playfair Display', serif;
+		color: #000;
+		padding-left: 40px;
+
+	}
+/* Footer part end */
